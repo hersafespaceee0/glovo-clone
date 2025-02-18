@@ -107,10 +107,45 @@ header img {
   height: 130px;
   object-fit: cover;
 }
-.restaurants-container h3{
+.restaurants-container h3 {
   background-color: #ffc244ff;
   width: max-content;
   margin: 0px auto;
+  margin-top: -30px;
+  position: relative;
+  z-index: 0;
   padding: 5px 10px;
   border-radius: 4px;
+}
+
+/* reasons */
+.why-glovo {
+  padding: 20px 150px;
+  text-align: center;
+}
+.reasons {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+.reasons p strong {
+  font-weight: none;
+  background-color: #ffc244ff;
+  border-radius: 8px;
+}
+.reasons h3 {
+  font-size: 21px;
+  margin: 20px;
+}
+.why-glovo .green-link {
+  border: none;
+  margin: 40px auto;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.countries {
+  height: 600px;
 }
